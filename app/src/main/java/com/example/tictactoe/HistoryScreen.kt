@@ -41,3 +41,4 @@ fun HistoryScreen() {
         elevation = CardDefaults.cardElevation(4.dp)
     ){}*/
     //Tambien anadimos result.difficulty.name para saber en que modo hemos jugado
+}

@@ -34,14 +34,8 @@ fun TicTacToeTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colorScheme = if (darkTheme)
-        darkColorScheme(
-            primary = Color(0xFF90CAF9),
-            secondary = Color(0xFF80CBC4),
-            surface = Color(0xFF121212)
-        )
-    else
-        lightColorScheme()
+    val colorScheme = lightColorScheme()
+
 
     MaterialTheme(colorScheme = colorScheme, content = content)
 }
